@@ -1,10 +1,17 @@
-#include "graphics/window.h"
+#include "Window.h"
+#include "Files.h"
+#include "Renderer.h"
+
+Window window;
+Files fileManager;
+Renderer renderer;
 
 int main() {
-	using namespace bmcengine::graphics;
-	Window window(1280, 720, "BMCEngine");
-	while (!window.ShouldClose()) {
+	window.createWindow("BMCEngine");
+	renderer.setup();
+	while (!glfwWindowShouldClose(window.window)) {
 		window.update();
+		renderer.render();
 	}
 	glfwTerminate();
 	return 0;

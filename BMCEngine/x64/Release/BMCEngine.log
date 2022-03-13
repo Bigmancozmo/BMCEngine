@@ -1,0 +1,12 @@
+﻿  Main.cpp
+  Window.cpp
+C:\Users\cozmo\source\repos\BMCEngine\BMCEngine\Window.cpp(12,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\cozmo\source\repos\BMCEngine\BMCEngine\Window.cpp(12,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\cozmo\source\repos\BMCEngine\BMCEngine\Window.cpp(19,57): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+C:\Users\cozmo\source\repos\BMCEngine\BMCEngine\Window.cpp(19,34): warning C4244: 'argument': conversion from 'double' to 'GLsizei', possible loss of data
+  glad.c
+  Previous IPDB not found, fall back to full compilation.
+  Generating code
+  All 160 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BMCEngine.vcxproj -> C:\Users\cozmo\source\repos\BMCEngine\x64\Release\BMCEngine.exe
